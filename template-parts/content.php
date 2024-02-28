@@ -26,6 +26,7 @@
       <strong class="font-semibold"><?php echo pods_field_display( 'some_title' ); ?></strong><svg viewBox="0 0 2 2" class="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true"><circle cx="1" cy="1" r="1" /></svg>
 		<?php echo pods_field_display( 'some_text' ); ?>
     </p>
+	added this text
     <a href="#" class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"><?php echo pods_field_display( 'some_link' ); ?> <span aria-hidden="true">&rarr;</span></a>
   </div>
   <div class="flex flex-1 justify-end">
@@ -61,5 +62,46 @@
 		</div>
 
 	<?php endif; ?>
+	<main>
+    <div>
+      <!-- Hero card -->
+      <div class="relative">
+        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+          <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+            <div class="absolute inset-0">
+              <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100" alt="People working on laptops">
+              <div class="absolute inset-0 bg-indigo-700" style="mix-blend-mode: multiply;"></div>
+            </div>
+            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+              <h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+                <span class="block text-white">Take control of your</span>
+                <span class="block text-indigo-200">customer support</span>
+              </h1>
+              <p class="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
+                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+              </p>
+              <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+                <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
+                  <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8">
+                    Get started
+                  </a>
+                  <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8">
+                    Live demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!-- Logo cloud -->
+      <div class="bg-gray-100">
+        adasdasdad
+      </div>
+    </div>
+
+    <!-- More main page content here... -->
+  </main>
 </article>
